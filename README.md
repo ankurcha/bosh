@@ -4,7 +4,7 @@ Cloud Foundry BOSH is an open source tool chain for release engineering, deploym
 
 * BOSH Documentation: [http://cloudfoundry.github.com/docs/running/deploying-cf/](http://cloudfoundry.github.com/docs/running/deploying-cf/)
 
-# Cloud Foundry Resources #
+# Cloud Foundry Resources 
 
 _Cloud Foundry Open Source Platform as a Service_
 
