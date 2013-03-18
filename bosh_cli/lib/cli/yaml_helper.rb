@@ -44,8 +44,10 @@ module Bosh::Cli
           @syck_class = Syck
         elsif defined?(YAML::Syck)
           @syck_class = YAML::Syck
+        elsif defined?(YAML::Psych)
+          @syck_class = YAML::Psych
         else
-          raise "Cannot find Syck parser for YAML, " +
+          raise "Cannot find parser for YAML, " +
                     "please check your Ruby installation"
         end
 

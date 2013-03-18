@@ -17,8 +17,8 @@ require "monit_api"
 require "fileutils"
 require "resolv"
 require "ipaddr"
-require 'httpclient'
-require 'sigar'
+require "httpclient"
+require "sigar"
 
 require "common/exec"
 require "common/properties"
@@ -67,8 +67,6 @@ require "bosh_agent/message/logs"
 require "bosh_agent/message/ssh"
 
 require "bosh_agent/handler"
-
-YAML::ENGINE.yamler = 'syck' if defined?(YAML::ENGINE.yamler)
 
 module Bosh::Agent
 
